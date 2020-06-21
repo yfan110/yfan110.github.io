@@ -1,14 +1,14 @@
 import markdown, pypandoc
 
-BlogHeader = """
-<!DOCTYPE html><html><head>
+BlogHeader = """<!DOCTYPE html><html><head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>yfan's personal website</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" type="text/css" href="../files/main.css"></head><body>
 <h1>This is yfan's blog</h1>
 """
-BlogFooter = """
+
+BlogFooter = """<a href="../index.html"><== Return to homepage</a>
 <a class="kopimi" href="http://www.kopimi.com/kopimi" title="Kopimi"><img class="kopimi" src="../files/kopimi.svg" title="Kopimi Logo"></a>
 <script src="../files/main.js"></script></body></html>
 """
