@@ -1,5 +1,5 @@
 # This is yfan's personal website.
-My first try to set up a website.
+Some NEET things I did online.
 
 ## This is probably stupid. 
 But, I'm officially colonizing the internet now, well...sort of. I'm looking forward to have something to share with you soon or not, it depends on whether have I something to say. Most of the time, I don't. So, I'll update next time by yuanfen.
