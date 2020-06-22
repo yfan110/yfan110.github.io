@@ -8,8 +8,7 @@ BlogHeader = """<!DOCTYPE html><html><head>
 <h1>This is yfan's blog</h1>
 """
 
-BlogFooter = """<a href="../index.html"><== Return to homepage</a>
-<a class="kopimi" href="http://www.kopimi.com/kopimi" title="Kopimi"><img class="kopimi" src="../files/kopimi.svg" title="Kopimi Logo"></a>
+BlogFooter = """<br><a href="../index.html"><-- Return to homepage</a>
 <script src="../files/main.js"></script></body></html>
 """
 
