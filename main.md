@@ -2,7 +2,7 @@
 Some NEET things I did online.
 
 ## Blog v0.1
-So, I have a blog now. Considering I won't have too much to say therefor I put all my stuff in one page. If the blog gets too big one day, It'll be a index or something. Check it out --> [My blog](./blog/blog.html)
+So, I have a blog now. Considering on where won't be much to be posted, therefore I put all my posts in one page. If the blog gets too big one day, there will be a index or something alike. Check it out --> [My blog](./blog/blog.html)
 
 ## Thanks to
 - @[denysvitali](https://github.com/denysvitali). This website is basiclly a modification from his [work](https://thebestmotherfucking.website).
