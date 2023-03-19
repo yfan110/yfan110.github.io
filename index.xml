@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>yfan的秋秋空间</title>
+    <link>http://yfan.website/</link>
+    <description>Recent content on yfan的秋秋空间</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sun, 19 Mar 2023 16:47:50 +0800</lastBuildDate><atom:link href="http://yfan.website/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>klipper 3d 打印机DIY进度</title>
+      <link>http://yfan.website/posts/klipper-3d-proj/</link>
+      <pubDate>Sun, 19 Mar 2023 16:47:50 +0800</pubDate>
+      
+      <guid>http://yfan.website/posts/klipper-3d-proj/</guid>
+      <description>介绍 现在时间有点多，想做一个klipper的3d打印机，又不想花太多的钱。后期想改写固件来支持esp32的芯片。
+进度 目前毫无进度:\</description>
+    </item>
+    
+  </channel>
+</rss>
