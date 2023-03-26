@@ -6,7 +6,17 @@
     <description>Recent content in Posts on yfan的QQ空间</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 19 Mar 2023 16:47:50 +0800</lastBuildDate><atom:link href="http://yfan.website/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 Mar 2023 13:39:04 +0800</lastBuildDate><atom:link href="http://yfan.website/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>屠龙勇士</title>
+      <link>http://yfan.website/posts/%E5%B1%A0%E9%BE%99%E5%8B%87%E5%A3%AB/</link>
+      <pubDate>Sun, 26 Mar 2023 13:39:04 +0800</pubDate>
+      
+      <guid>http://yfan.website/posts/%E5%B1%A0%E9%BE%99%E5%8B%87%E5%A3%AB/</guid>
+      <description>母亲说能作的都已经作完了。剩下来的都没有好的了。我说那就算了吧，这辈子就这样吧。母亲笑的很艰难。她说有个女孩，南京的，在问，还没有给回音。我不好意思告诉她，估计是没戏了。我问，有没有年纪小一点的？她说，年纪小的都嫌你老。我蹭地一下就跳起来了。我老？我找不到老婆，就有十个女的找不到老公。这里的男人都“死光了”，那帮子想找对象的女的都找不到男人！还嫌弃我老？!哼！
+屠龙勇士终成恶龙，我终于变成了自己最讨厌的样子。</description>
+    </item>
+    
     <item>
       <title>klipper 3d 打印机DIY进度</title>
       <link>http://yfan.website/posts/klipper-3d-proj/</link>
@@ -14,7 +24,7 @@
       
       <guid>http://yfan.website/posts/klipper-3d-proj/</guid>
       <description>介绍 现在时间有点多，想做一个klipper的3d打印机，又不想花太多的钱。后期想改写固件来支持esp32的芯片。
-进度 目前毫无进度:\</description>
+进度 2022-12 3d打印机的框架买回来了，熟悉了一下klipper的固件结构。 2023-03-26 开始画主板的原理图和PCB。</description>
     </item>
     
   </channel>
