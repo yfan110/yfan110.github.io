@@ -24,7 +24,7 @@
       
       <guid>http://yfan.website/posts/klipper-3d-proj/</guid>
       <description>介绍 现在时间有点多，想做一个klipper的3d打印机，又不想花太多的钱。后期想改写固件来支持esp32的芯片。
-进度 2022-12 3d打印机的框架买回来了，熟悉了一下klipper的固件结构。 2023-03-26 开始画主板的原理图和PCB。</description>
+进度 2022-12 3d打印机的框架买回来了，熟悉了一下klipper的固件结构。 2023-03-26 开始画主板的原理图和PCB。 2023-06-01 终于有进展了，原理图画完，坐等样板。 </description>
     </item>
     
   </channel>
