@@ -8,7 +8,7 @@
 <meta name="robots" content="index, follow">
 <title>yfan的QQ空间</title>
 
-<meta name="description" content="">
+<meta name="description" content="我的介绍去哪了...">
 <meta name="author" content="">
 <link rel="canonical" href="http://yfan.website/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.6a98292fb8fa8cf0f3ba4042d4b75515c04267550f3ad49ff6271b5af9562443.css" integrity="sha256-apgpL7j6jPDzukBC1LdVFcBCZ1UPOtSf9icbWvlWJEM=" rel="preload stylesheet" as="style">
@@ -57,13 +57,13 @@
 
     </style>
 </noscript><meta property="og:title" content="yfan的QQ空间" />
-<meta property="og:description" content="" />
+<meta property="og:description" content="我的介绍去哪了..." />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="http://yfan.website/" />
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="yfan的QQ空间"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:description" content="我的介绍去哪了..."/>
 
 <script type="application/ld+json">
 {
@@ -71,7 +71,7 @@
   "@type": "Organization",
   "name": "yfan的QQ空间",
   "url": "http://yfan.website/",
-  "description": "",
+  "description": "我的介绍去哪了...",
   "thumbnailUrl": "http://yfan.website/favicon.ico",
   "sameAs": [
       
@@ -127,19 +127,6 @@
 
 <article class="first-entry"> 
   <header class="entry-header">
-    <h2>屠龙勇士
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>母亲说能作的都已经作完了。剩下来的都没有好的了。我说那就算了吧，这辈子就这样吧。母亲笑的很艰难。她说有个女孩，南京的，在问，还没有给回音。我不好意思告诉她，估计是没戏了。我问，有没有年纪小一点的？她说，年纪小的都嫌你老。我蹭地一下就跳起来了。我老？我找不到老婆，就有十个女的找不到老公。这里的男人都“死光了”，那帮子想找对象的女的都找不到男人！还嫌弃我老？!哼！
-屠龙勇士终成恶龙，我终于变成了自己最讨厌的样子。</p>
-  </div>
-  <footer class="entry-footer"><span title='2023-03-26 13:39:04 +0800 CST'>March 26, 2023</span></footer>
-  <a class="entry-link" aria-label="post link to 屠龙勇士" href="http://yfan.website/posts/%E5%B1%A0%E9%BE%99%E5%8B%87%E5%A3%AB/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
     <h2>klipper 3d 打印机DIY进度
     </h2>
   </header>
@@ -147,8 +134,22 @@
     <p>介绍 现在时间有点多，想做一个klipper的3d打印机，又不想花太多的钱。后期想改写固件来支持esp32的芯片。
 进度 2022-12 3d打印机的框架买回来了，熟悉了一下klipper的固件结构。 2023-03-26 开始画主板的原理图和PCB。 2023-06-01 终于有进展了，原理图画完，坐等样板。 </p>
   </div>
-  <footer class="entry-footer"><span title='2023-03-19 16:47:50 +0800 CST'>March 19, 2023</span></footer>
+  <footer class="entry-footer"><span title='2023-03-19 16:47:50 +0800 CST'>2023-03-19</span></footer>
   <a class="entry-link" aria-label="post link to klipper 3d 打印机DIY进度" href="http://yfan.website/posts/klipper-3d-proj/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>今天研究了一下用Arduino烧写ATtiny13a的bootloader的方法
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p> 今天本来是在学习hackaday的AVR单片机教程的，发现自己好有两片ATTiny13A，就研究了一下烧写ATTiny13a的arduino bootloader的方法。顺便手撸了一个烧写器，毕竟我还是很喜欢这种微型的MCU的，记录一下方法。
+第一步，先把线接起来。接线方法参考arduino官方的教程，网上搜“arduino isp”。这里要注意的是，在arduino的isp范例程序中定义的MISO和MOSI引脚和ATTiny13A的对应引脚相连时，它的链接方式和正常是反的，正常MSIO连MISO，而这里是把arduinoISP的MSIO连到了ATTiny13a的MSIO上，不然会出错。可以换ISP程序中的管脚定义或者直接换连接线的顺序。 我这里直接手撸了一个烧写器，就直接插上取就可以了。要注意方向，不要插反（这是写给我自己看的）。
+第二步，先把arduino烧上aduino isp程序。这里要81行的注释去掉，这样就可以用接线的方式来连线了，然后是要对一下引脚定义，看看有没有接错。用原来烧写程序的方式把arduino isp烧进arduino nano（我的是)里。 第三步，下载MicroCore的arduino开发板信息，这具体步骤就不描述了，应该出不了错。链接在github上，自己找。然后点烧录引导程序。 第四步，接线方式不变，选用“使用编程器上传”就可以通过arduino nano把程序传到ATtiny13a里了，这里烧了一个blinker程序试了一下，注意引脚定义的是ATtiny13a上的引脚，第四脚。 </p>
+  </div>
+  <footer class="entry-footer"><span title='2023-06-04 19:07:35 +0800 CST'>2023-06-04</span></footer>
+  <a class="entry-link" aria-label="post link to 今天研究了一下用Arduino烧写ATtiny13a的bootloader的方法" href="http://yfan.website/posts/attiny_arduino/"></a>
 </article>
     </main>
     
